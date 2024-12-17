@@ -6,9 +6,10 @@ import time
 import subprocess
 
 # API Keys and Base URLs
-OPENWEATHER_API_KEY = "c876ee350c049e89f18623aa44a229c3"
-AIRQUALITY_API_KEY = "51065cca-f862-4633-bd73-c06e08cf1fe9"
-NOAA_TOKEN = "DKSShogFUvkZnAZYbdPhzConFYEXjRdx"
+#Enter your own API's 
+OPENWEATHER_API_KEY = ""
+AIRQUALITY_API_KEY = ""
+NOAA_TOKEN = ""
 
 OPENWEATHER_BASE_URL = "http://api.openweathermap.org/data/2.5/forecast"
 AIRQUALITY_BASE_URL = "http://api.airvisual.com/v2/city"
