@@ -1,10 +1,5 @@
 # Environmental-Monitoring-MLOps
 A comprehensive MLOps project for monitoring environmental data, predicting pollution trends, and visualizing key metrics. This repository integrates DVC for data management, MLflow for model tracking, and Prometheus with Grafana for monitoring a Flask-based prediction API.
-
-# Environmental Monitoring and Pollution Prediction System
-
-This repository contains an end-to-end MLOps pipeline for monitoring environmental data, predicting pollution trends, and visualizing live metrics. The project utilizes tools like DVC, MLflow, Prometheus, and Grafana, integrated with models like ARIMA and LSTM for accurate predictions.
-
 ---
 
 ## Table of Contents
