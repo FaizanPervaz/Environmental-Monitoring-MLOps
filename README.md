@@ -109,31 +109,45 @@ Ensure you have the following installed:
 
 ## Project Details
 ---
-Task 1. Managing Environmental Data with DVC
-Data Sources:
-- OpenWeatherMap API for weather and pollution data.
-- IQAir API for air quality data.
-- NOAA for historical weather data.
-Key Steps:
-- Initialize a DVC repository to version collected data.
-- Automate data fetching using Python scripts and cron jobs.
-- Use DVC to track, version, and push data to remote storage.
-Task 2. Pollution Trend Prediction with MLflow
-Modeling:
-- ARIMA for univariate time-series forecasting.
-- LSTM for multi-step pollution prediction.
-Key Steps:
-Preprocess data: Handle missing values, merge datasets, and engineer features.
-Train models with hyperparameter tuning and log experiments in MLflow.
-- Deploy the best model as a Flask API.
-Task 3. Monitoring and Live Testing
-Monitoring:
-- Prometheus scrapes API metrics (latency, request count, prediction accuracy).
-- Grafana visualizes system performance and prediction trends.
-Live Testing:
 
-Continuous testing with live API data.
-Comparison of real-time predictions with ground truth values.
+### Task 1: Managing Environmental Data with DVC
+#### Data Sources:
+- **OpenWeatherMap API**: Weather and pollution data.
+- **IQAir API**: Air quality data.
+- **NOAA**: Historical weather data.
+
+#### Key Steps:
+1. **Initialize DVC Repository**: Version control for collected data.
+2. **Automate Data Fetching**: Python scripts and cron jobs.
+3. **Track and Push Data**: Use DVC to version and push data to remote storage.
+
+---
+
+### Task 2: Pollution Trend Prediction with MLflow
+#### Modeling:
+- **ARIMA**: Univariate time-series forecasting.
+- **LSTM**: Multi-step pollution prediction.
+
+#### Key Steps:
+1. **Preprocess Data**:
+   - Handle missing values.
+   - Merge datasets.
+   - Engineer features.
+2. **Model Training**:
+   - Hyperparameter tuning.
+   - Log experiments in MLflow.
+3. **Deploy Best Model**: Serve predictions through a Flask API.
+
+---
+
+### Task 3: Monitoring and Live Testing
+#### Monitoring:
+- **Prometheus**: Scrapes API metrics (latency, request count, prediction accuracy).
+- **Grafana**: Visualizes system performance and prediction trends.
+
+#### Live Testing:
+1. **Continuous Testing**: Real-time API data testing.
+2. **Prediction Comparison**: Compare real-time predictions with ground truth values.
 
 ## Technologies Used
 ---
