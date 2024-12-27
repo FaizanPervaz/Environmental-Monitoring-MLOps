@@ -76,13 +76,14 @@ Ensure you have the following installed:
 1. Run Data Collection:
     python fetch_data.py or create bat file for it
 2. Track Data with DVC:
-    dvc add data/
-    dvc commit
-    dvc push
+     1. dvc add data/
+     2. dvc commit
+     3. dvc push
 3. Train models using ipynb file
-4. Run Predictions via API, you can use postman too:
-   Start the API: python app.py
-    Make predictions by sending a POST request:
+4. Run Predictions via API, I used Postman for Post Requesting:
+    - Start the API: python app.py
+    - Make predictions by sending a POST request :
+  ```bash
    {
   "temperature": 25.5,
   "humidity": 60,
@@ -100,9 +101,10 @@ Ensure you have the following installed:
   "TMAX": 28,
   "TMIN": 22
 }
-5. Visualize Metrics:
-   Open Grafana at http://localhost:3000.
-   View real-time dashboards for predictions and system performance.
+```
+6. Visualize Metrics:
+   - Open Grafana at http://localhost:3000.
+   - View real-time dashboards for predictions and system performance.
 
 
 ## Project Details
