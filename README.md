@@ -80,7 +80,7 @@ Ensure you have the following installed:
     dvc commit
     dvc push
 3. Train models using ipynb file
-4. Run Predictions via API:
+4. Run Predictions via API, you can use postman too:
    Start the API: python app.py
     Make predictions by sending a POST request:
    {
