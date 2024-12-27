@@ -109,28 +109,27 @@ Ensure you have the following installed:
 
 ## Project Details
 ---
-Task 1: Managing Environmental Data with DVC
+Task 1. Managing Environmental Data with DVC
 Data Sources:
-OpenWeatherMap API for weather and pollution data.
-IQAir API for air quality data.
-NOAA for historical weather data.
+- OpenWeatherMap API for weather and pollution data.
+- IQAir API for air quality data.
+- NOAA for historical weather data.
 Key Steps:
-Initialize a DVC repository to version collected data.
-Automate data fetching using Python scripts and cron jobs.
-Use DVC to track, version, and push data to remote storage.
-Task 2: Pollution Trend Prediction with MLflow
+- Initialize a DVC repository to version collected data.
+- Automate data fetching using Python scripts and cron jobs.
+- Use DVC to track, version, and push data to remote storage.
+Task 2. Pollution Trend Prediction with MLflow
 Modeling:
-ARIMA for univariate time-series forecasting.
-LSTM for multi-step pollution prediction.
+- ARIMA for univariate time-series forecasting.
+- LSTM for multi-step pollution prediction.
 Key Steps:
 Preprocess data: Handle missing values, merge datasets, and engineer features.
 Train models with hyperparameter tuning and log experiments in MLflow.
-Deploy the best model as a Flask API.
-Task 3: Monitoring and Live Testing
+- Deploy the best model as a Flask API.
+Task 3. Monitoring and Live Testing
 Monitoring:
-
-Prometheus scrapes API metrics (latency, request count, prediction accuracy).
-Grafana visualizes system performance and prediction trends.
+- Prometheus scrapes API metrics (latency, request count, prediction accuracy).
+- Grafana visualizes system performance and prediction trends.
 Live Testing:
 
 Continuous testing with live API data.
@@ -138,8 +137,8 @@ Comparison of real-time predictions with ground truth values.
 
 ## Technologies Used
 ---
-Languages: Python
-Versioning: DVC, Git
-Modeling: TensorFlow, Keras, statsmodels
-Deployment: Flask, Docker
-Monitoring: Prometheus, Grafana
+- Languages: Python
+- Versioning: DVC, Git
+- Modeling: TensorFlow, Keras, statsmodels
+- Deployment: Flask, Docker
+- Monitoring: Prometheus, Grafana
